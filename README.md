@@ -3,4 +3,4 @@ This is an introductory Kotlin practice from the Android App Development course.
 * the `main` method
 * declaring functions with `fun` keyword
 * variable declaration and initialization with `val` keyword
-* makes use of the `repeat()` method.
+* makes use of the `repeat()` method
