@@ -1,3 +1,16 @@
+/**
+ * Notes:
+ * This is a source code for the Kotlin introductory sample exercise "Happy Birthday!"
+ * from the official Android App Development tutorial.
+ *
+ * Link to tutorial:
+ * https://developer.android.com/codelabs/build-your-first-android-app-kotlin#0
+ *
+ * Program Description:
+ * This program prints a border above and below the text "Happy Birthday, {name}!".
+ * It also prints an ASCII art of a cake with width based on the user input's age
+ */
+
 // This function prints the borders above and below the text
 fun printBorder(length: Int) {
     repeat(length) {
@@ -21,7 +34,10 @@ fun printCakeCandles(age: Int) {
     println()
 }
 
-// This function prints the cake top based on the age
+/**
+ * This function prints the cake top that separates the cake candles from
+ * the cake layers with width of cake based on the age
+ */
 fun printCakeTop (age: Int) {
     repeat(age + 2) {
         print("=")
@@ -29,8 +45,9 @@ fun printCakeTop (age: Int) {
     println()
 }
 
-/** This function prints the width of the cake based on the age given and prints
- * a specified amount of cake layer
+/** 
+ * This function prints the layers of the cake with width based on the age given.
+ * It also prints a specified amount of cake layer.
  */
 fun printCakeBottom(age: Int, layers: Int) {
     repeat(layers) {
@@ -41,11 +58,7 @@ fun printCakeBottom(age: Int, layers: Int) {
     }    
 }
 
-/**
- * This program prints a border above and below the text. It also prints
- * an ASCII art of a cake depending on the user input's age
-**/
-
+// Start program
 fun main() {
     val text = "Happy Birthday, Jhansi!"
     val age = 24
@@ -58,4 +71,4 @@ fun main() {
     printCakeCandles(age)
     printCakeTop(age)
     printCakeBottom(age, layers)
-}
+} // End progran
