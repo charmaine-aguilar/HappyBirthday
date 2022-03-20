@@ -1,6 +1,6 @@
 /**
  * Notes:
- * This is a source code for the Kotlin introductory sample exercise "Happy Birthday!"
+ * This is a source code for the introductory Kotlin sample exercise about building your first android app
  * from the official Android App Development tutorial.
  *
  * Link to tutorial:
